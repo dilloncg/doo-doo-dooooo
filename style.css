@@ -1,0 +1,36 @@
+img{
+  max-width: 100%;
+}
+
+body{
+  background: red;
+  margin: 0px;
+  animation: fire 2s infinite ease;
+}
+
+@keyframes fire{
+  0%{
+    background: yellow;
+  }
+  50%{
+    background: orange;
+  }
+  100%{
+    background: red;
+  }
+}
+
+.bbs1{
+  font-size: 100px;
+  text-align: center;
+  animation: flash 0.4s infinite alternate linear;
+}
+
+@keyframes flash{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
